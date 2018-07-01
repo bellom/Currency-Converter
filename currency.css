@@ -1,0 +1,67 @@
+
+
+#input {
+    background-color: orange;
+}
+
+#container{
+    width:100%;
+    text-align:center;
+}
+
+remove {
+ color:red;
+}
+
+img {
+	max-width: 150px;
+}
+
+form {
+    height: inherit;
+    text-align: center;
+    border-style: groove;
+    background-color: blue;
+    color: antiquewhite;
+}
+         
+
+
+h3 {
+    font-family:cursive;
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+
+
+#subb{
+    font-family:cursive;
+    color: antiquewhite;
+    font-size: 17px;
+}
+
+sub {
+    font-style: italic;
+    font-size: 10px;
+}
+
+thead {
+background-color:cornflowerblue;
+color:white;
+font-family: serif;
+font-size: 19px;
+
+}
+
+tfoot {
+    background-color:cornflowerblue;
+    color: white;
+    
+}
+
+.copyright {
+    margin-top: 0em;
+    text-align: center;
+    background-color:azure;
+}

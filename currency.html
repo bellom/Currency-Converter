@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+      <title>currency Converter</title>
+      <meta charset="UTF-8">
+      <script type = "text/javascript" language = "javascript"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <!-- Custom CSS -->
+      <link href="currency.css" rel="stylesheet">
+      <!-- Javascript -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+        
+      <form>
+          
+        <caption><h3><b>ALC<sub id="subb">3.0</sub> Currency Converter</b></h3></caption> 
+          
+      </form>
+          
+      <br>
+        <br>
+        <br>
+
+        <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-primary text-center">
+                <div class="panel-heading">
+                <h4 class="panel-title">Currency Convert Box</h4>
+                </div>
+                <div class="panel-body">
+                <form class="form-vertical">
+
+                    <div class="form-group center">
+                    <label for="">Enter Value:</label>
+                    <input type="number" class="amount form-control" placeholder="Enter value" min="1" id="amount">
+                    </div>
+
+
+                    <div class="form-group inline-block">
+                    <label for="">From currency:</label>
+                    <select class="currency-list form-control"  id="select-from" onclick="exchangeCurrency()">
+                        <option>--Select--</option>
+                    </select>
+                    </div>
+
+                    <div class="form-group inline-block">
+                    <label>To currency:</label>
+                    <select class="currency-list form-control" id="convert-to" onclick="exchangeCurrency()">
+                        <option>--Select--</option>
+                    </select>
+                    </div>
+                </form>
+                <button id="convert">Click To Convert </button>
+                <input type="number" id="convert-value" readonly>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        
+        <br>
+        <br>
+        
+        
+
+        <div id="container">
+            <div id="left">
+                <a href="http://andela.com"><img src= "https://res.cloudinary.com/hng-bellom/image/upload/v1530153467/alx/Andelalogo.png"></a>
+            </div>
+            <div id="right">
+                <a href="http://udacity.com"><img src= "https://res.cloudinary.com/hng-bellom/image/upload/v1530153454/alx/udacitylogo.png"/></a>
+            </div>
+            <div id="center">
+                <a href="http://google.com"><img src= "https://res.cloudinary.com/hng-bellom/image/upload/v1530153450/alx/googlelogo.png"></a>
+            </div> 
+        </div>
+        
+        <p class="copyright">&copy; 2018 Bellom Sean.</p>
+                  
+    <script src="currency.js"></script> 
+    <script src="idb.js"></script> 
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+        
+</body>
+    
+</html>
